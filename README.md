@@ -2,4 +2,4 @@
 
 ## Credits
 
-- [Shoubhit Dash](https://nexxel.dev) creator of T3 stacks (https://github.com/t3-oss/create-t3-app)
+- [nexxel](https://nexxel.dev) creator of T3 stacks (https://github.com/t3-oss/create-t3-app)
