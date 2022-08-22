@@ -16,8 +16,8 @@ const NavItem: FC<{ href: string; text: string; router: NextRouter }> = ({
         className={clsx(
           "text-md md:text-lg mr-4 md:mr-6",
           isActive
-            ? "text-t-pink font-semibold"
-            : "hover:text-t-pink transition-colors duration-300"
+            ? "text-teal-400 font-semibold"
+            : "hover:text-teal-400 transition-colors duration-300"
         )}
       >
         {text}

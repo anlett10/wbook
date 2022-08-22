@@ -45,7 +45,7 @@ const FeaturedPost = (post: Post) => {
   return (
     <Link href={post.url}>
       <a className="flex px-4 py-4 transition-colors duration-200 rounded-lg hover:bg-zinc-800">
-        <p className="text-xl text-t-pink line-clamp-1">{post.title}</p>
+        <p className="text-xl text-t-purple line-clamp-1">{post.title}</p>
       </a>
     </Link>
   );
@@ -63,7 +63,7 @@ const Hero = () => {
         className="rounded-full"
       />
 
-      <h1 className="pt-2 text-5xl font-bold text-center text-transparent bold-text bg-clip-text bg-gradient-to-r from-t-pink via-t-purple to-t-orange animate-gradient-text">
+      <h1 className="pt-2 text-5xl font-bold text-center text-transparent bold-text bg-clip-text bg-gradient-to-r from-t-orange via-t-purple to-teal-400 animate-gradient-text">
         hello!
       </h1>
 

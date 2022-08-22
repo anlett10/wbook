@@ -7,7 +7,7 @@ const Footer = () => {
           href="https://github.com/t3-oss/create-t3-app"
           target="_blank"
           rel="noreferrer"
-          className="transition-opacity duration-300 opacity-75 text-t-purple hover:opacity-100"
+          className="transition-opacity duration-300 opacity-75 text-teal-400 hover:opacity-100"
         >
           GitHub
         </a>

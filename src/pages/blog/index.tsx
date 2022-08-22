@@ -18,7 +18,7 @@ const PostCard = (post: Post) => {
     <Link href={post.url}>
       <a>
         <div className="p-4 mb-6 transition-all duration-300 rounded-lg cursor-pointer hover:bg-zinc-800">
-          <h3 className="text-2xl text-t-pink">{post.title}</h3>
+          <h3 className="text-2xl text-t-purple">{post.title}</h3>
           <p className="pt-4 text-slate-200">{post.description}</p>
 
           <div className="flex items-center gap-2 pt-4 text-sm text-">

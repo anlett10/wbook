@@ -7,7 +7,7 @@ const Qna: FC<{ question: string; answer: string }> = ({
 }) => {
   return (
     <div className="flex flex-col gap-1">
-      <p className="text-xl font-bold text-t-pink bold-text">{question}</p>
+      <p className="text-xl font-bold text-t-purple bold-text">{question}</p>
       <p>{answer}</p>
     </div>
   );
@@ -22,7 +22,7 @@ const CustomQna = ({
 }) => {
   return (
     <div className="flex flex-col gap-1">
-      <p className="text-xl font-bold text-t-pink bold-text">{question}</p>
+      <p className="text-xl font-bold text-t-purple bold-text">{question}</p>
       {children}
     </div>
   );
@@ -34,7 +34,7 @@ const Link: FC<{ to: string; text: string }> = ({ to, text }) => {
       href={to}
       target="_blank"
       rel="noreferrer"
-      className="transition-opacity duration-300 text-t-purple opacity-90 hover:opacity-100"
+      className="transition-opacity duration-300 text-teal-400 opacity-90 hover:opacity-100"
     >
       {text}
     </a>
@@ -49,7 +49,7 @@ const FAQPage = () => {
     >
       <h1 className="text-3xl font-bold bold-text pt-14 text-t-purple">FAQ</h1>
       <p className="pt-1 text-slate-200">
-        Một số câu hỏi về cá nhân có thể bạn quan tâm!
+        Thông tin về công việc và một số quan tâm khác
       </p>
 
       <div className="pt-10" />
@@ -57,12 +57,12 @@ const FAQPage = () => {
       <div className="flex flex-col gap-6">
         <Qna
           question="Về công việc phát triển phần mềm?"
-          answer="Thời gian gần đây suy nghĩ nhiều về cụm từ Code Is Law. Chương trình máy tính là để hiện thực các quy định/quy tắc (Business logic/Law)"
+          answer="Thời gian gần đây suy nghĩ nhiều về cụm từ Code Is Law. Nhìn chung, chương trình máy tính được phát triển nhằm hiện thực các quy định/quy tắc (Business logic/Law) được thống nhất trước đó"
         />
 
         <CustomQna question="Ngôn ngữ lập trình yêu thích?">
           <p>
-            Lý tưởng chương trình được phát triển bằng các ngôn ngữ sau{" "}
+            Lý tưởng, chương trình sẽ được phát triển bằng các ngôn ngữ sau{" "}
             <Link to="https://typescriptlang.org" text="TypeScript" /> and{" "}
             <Link to="https://rust-lang.org/" text="Rust" /> and{" "}
             <Link to="https://move-book.com" text="Move" />.
@@ -78,13 +78,13 @@ const FAQPage = () => {
 
         <CustomQna question="Một vài GitHub repos quan tâm nhất?">
           <p>
-            <Link to="https://github.com/aptos-labs/" text="Aptos" /> blockchain
-            L1 mới phát triển gần đây và{" "}
+            <Link to="https://github.com/aptos-labs/" text="Aptos" /> một
+            blockchain L1 mới phát triển gần đây và{" "}
             <Link
               to="https://github.com/t3-oss/create-t3-app"
               text="T3 Stack"
             />{" "}
-            một Web framework cho ngôn ngữ TypeScript.
+            một framework để xây các ứng dụng web bằng ngôn ngữ TypeScript.
           </p>
         </CustomQna>
       </div>
