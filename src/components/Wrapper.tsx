@@ -56,7 +56,7 @@ const Wrapper: FC<{
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="An Le" />
-        <meta name="theme-color" content="#fabec0" />
+        <meta name="theme-color" content="#262626" />
         <meta property="og:description" content={description} />
         <meta property="og:title" content={title} />
         <meta name="twitter:card" content="summary_large_image" />
