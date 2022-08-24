@@ -63,8 +63,8 @@ const FAQPage = () => {
         <CustomQna question="Ngôn ngữ lập trình yêu thích?">
           <p>
             Lý tưởng, chương trình sẽ được phát triển bằng các ngôn ngữ sau{" "}
-            <Link to="https://typescriptlang.org" text="TypeScript" /> and{" "}
-            <Link to="https://rust-lang.org/" text="Rust" /> and{" "}
+            <Link to="https://typescriptlang.org" text="TypeScript" />,{" "}
+            <Link to="https://rust-lang.org/" text="Rust" /> và{" "}
             <Link to="https://move-book.com" text="Move" />.
           </p>
         </CustomQna>
