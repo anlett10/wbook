@@ -40,7 +40,7 @@ const HomePage: NextPage<{
     <Wrapper title="anlett10 • home" description="entrepreneur developer">
       <Hero />
       <div className="flex flex-col">
-        <h3 className="pb-6 text-4xl font-bold bold-text">Recent posts</h3>
+        <h3 className="pb-6 text-4xl font-bold">Recent posts</h3>
 
         <div className="flex flex-col gap-1">
           {latestPosts.map((post) => (

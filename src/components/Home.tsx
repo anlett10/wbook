@@ -63,7 +63,7 @@ const Hero = () => {
         className="rounded-full"
       />
 
-      <h1 className="pt-2 text-5xl font-bold text-center text-transparent bold-text bg-clip-text bg-gradient-to-r from-t-orange via-t-purple to-teal-400 animate-gradient-text">
+      <h1 className="pt-2 text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-t-orange via-t-purple to-teal-400 animate-gradient-text">
         hello!
       </h1>
 

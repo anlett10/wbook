@@ -40,7 +40,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
       title="anlett10 • blog"
       description="Writings on programming and tech"
     >
-      <h1 className="text-3xl font-bold bold-text pt-14 text-t-purple">Blog</h1>
+      <h1 className="text-3xl font-bold pt-14 text-t-purple">Blog</h1>
       <p className="pt-1 text-slate-200">
         Các bài viết về công việc, sở thích, văn hoá ...
       </p>

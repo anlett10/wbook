@@ -3,6 +3,23 @@
 module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
+    fontFamily: {
+      display: [
+        "Inter",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        '"Segoe UI"',
+        "Roboto",
+        '"Helvetica Neue"',
+        "Arial",
+        '"Noto Sans"',
+        "sans-serif",
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"',
+      ],
+    },
     extend: {
       colors: {
         "t-pink": "#f4cfdf",
