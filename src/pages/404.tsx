@@ -5,11 +5,11 @@ const ShortenerPage = () => {
   return (
     <Wrapper title="nexxel • 404" description="Looks like you're lost">
       <div className="justify-center pt-28">
-        <h2 className="text-4xl text-t-purple">404</h2>
+        <h2 className="text-4xl text-purple-300">404</h2>
         <p>
           Looks like you&apos;re lost. In the meantime read my{" "}
           <Link href="/blog">
-            <a className="transition-opacity duration-300 opacity-75 text-t-purple hover:opacity-100">
+            <a className="transition-opacity duration-300 opacity-75 text-purple-300 hover:opacity-100">
               blog
             </a>
           </Link>{" "}

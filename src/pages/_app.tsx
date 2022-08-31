@@ -1,9 +1,6 @@
-// src/pages/_app.tsx
 import "~/styles/globals.css";
-
 import { NextPage } from "next";
 import { AppProps } from "next/app";
-import Script from "next/script";
 import { AppType } from "next/dist/shared/lib/utils";
 import { ReactElement, ReactNode } from "react";
 import { DefaultLayout } from "../components/DefaultLayout";
@@ -26,12 +23,9 @@ const MyApp = (({
     Component.getLayout ?? ((page) => <DefaultLayout>{page}</DefaultLayout>);
 
   return getLayout(
-    <>
-      <Script src="https://umami.nxl.sh/umami.js"></Script>
-      <SessionProvider session={session}>
-        <Component {...pageProps} />
-      </SessionProvider>
-    </>
+    <SessionProvider session={session}>
+      <Component {...pageProps} />
+    </SessionProvider>
   );
 }) as AppType;
 

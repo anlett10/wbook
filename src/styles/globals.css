@@ -12,7 +12,7 @@ html,
 body {
   scroll-behavior: smooth;
   color-scheme: dark;
-  @apply antialiased bg-neutral-900 text-slate-100;
+  @apply antialiased bg-slate-900 text-slate-100;
 }
 
 @import url("mdx.css");
@@ -28,7 +28,7 @@ body {
   }
 
   .prose .icon-link:after {
-    @apply pr-2 opacity-80 text-t-purple;
+    @apply pr-2 opacity-80 text-purple-300;
     content: "#";
   }
 
@@ -46,7 +46,7 @@ body {
     width: 100%;
     border-radius: 0;
     overflow-x: scroll;
-    @apply !mt-0 rounded-b-lg border border-t-pink border-opacity-30 bg-[#171718];
+    @apply !mt-0 rounded-b-lg border border-t-pink border-opacity-30 bg-[#0f182a];
   }
 
   .prose :where(a):not(:where([class~="not-prose"] *)) {

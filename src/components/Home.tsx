@@ -16,7 +16,7 @@ const ProjectCard: FC<{
 }> = ({ url, repo, stars, forks, description, language, languageColor }) => {
   return (
     <a href={url} target="_blank" rel="noreferrer">
-      <div className="flex flex-col p-4 transition-transform duration-300 border-2 rounded-lg h-40 border-t-pink bg-[#171718] place-content-evenly transform hover:scale-[104%]">
+      <div className="flex flex-col p-4 transition-transform duration-300 border-2 rounded-lg h-40 border-t-pink bg-[#0f182a] place-content-evenly transform hover:scale-[104%]">
         <div className="flex flex-col gap-1">
           <p className="text-xl text-t-pink">{repo}</p>
           <p className="text-sm">{description}</p>
@@ -45,7 +45,7 @@ const FeaturedPost = (post: Post) => {
   return (
     <Link href={post.url}>
       <a className="flex px-4 py-4 transition-colors duration-200 rounded-lg hover:bg-zinc-800">
-        <p className="text-xl text-t-purple line-clamp-1">{post.title}</p>
+        <p className="text-xl text-purple-300 line-clamp-1">{post.title}</p>
       </a>
     </Link>
   );

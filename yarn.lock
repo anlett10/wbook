@@ -10,7 +10,7 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.16.3", "@babel/runtime@^7.18.9", "@babel/runtime@^7.9.0":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.16.3", "@babel/runtime@^7.18.9":
   version "7.18.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.9.tgz#b4fcfce55db3d2e5e080d2490f608a3b9f407f4a"
   integrity sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==
@@ -580,34 +580,27 @@
     "@types/use-sync-external-store" "^0.0.3"
     use-sync-external-store "^1.2.0"
 
-"@trpc/client@^10.0.0-alpha.51":
-  version "10.0.0-katt-fix-error-inference-2022-08-10-15-04-30.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.0.0-katt-fix-error-inference-2022-08-10-15-04-30.0.tgz#48f67e6b81ba2785f9fe886e9bad3bb6949ceea5"
-  integrity sha512-TdcTxtnr/qEs1InkaYLQC6taTZBOrb4rvRQaOkPpEpDVKDxFlpIm4D6r5LBrpgGkQppMq6kBChP8e4Y0BfpTHg==
-  dependencies:
-    "@babel/runtime" "^7.9.0"
+"@trpc/client@^10.0.0-alpha.59":
+  version "10.0.0-proxy-alpha.59"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.0.0-proxy-alpha.59.tgz#8a29c5ddb89be93de8daa27376183c4d82f56d9c"
+  integrity sha512-0+iJE8Z98FmnLYthg2SJRsLrVbwEZPdohVJBEsC0goja2C8bNfWMWDfNL5FJeYBEcycRUg+eNByaLNLW52MEZg==
 
-"@trpc/next@^10.0.0-alpha.51":
-  version "10.0.0-katt-fix-error-inference-2022-08-10-15-04-30.0"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.0.0-katt-fix-error-inference-2022-08-10-15-04-30.0.tgz#cc5b63928fecdb62dfe76f1053c8940340bc65e0"
-  integrity sha512-0D+i1VG33GTsaJikaVIvXQJR0auZM0ZHNAn6/3xwKCcmzb4WGzZhDo4xSE4rrr32lYr73eKqeRb+3Zk0+7ratw==
+"@trpc/next@^10.0.0-alpha.59":
+  version "10.0.0-proxy-alpha.59"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.0.0-proxy-alpha.59.tgz#cf5820de3412597b8dde2fe00eff9e8717ea322f"
+  integrity sha512-W1dL8Haffo7OQSyjJcJ6TXyNxCCRijV5HTVJvZk9f8ViPPq926xsdC4ERITlNmQwrHKC1CO4/3Q0UyDiw/Mw4g==
   dependencies:
-    "@babel/runtime" "^7.9.0"
     react-ssr-prepass "^1.5.0"
 
-"@trpc/react@^10.0.0-alpha.51":
-  version "10.0.0-katt-fix-error-inference-2022-08-10-15-04-30.0"
-  resolved "https://registry.yarnpkg.com/@trpc/react/-/react-10.0.0-katt-fix-error-inference-2022-08-10-15-04-30.0.tgz#c62f859d059052390975354de5a8d932269b4539"
-  integrity sha512-wwgvpGD51h+rCT5izUggqBFmSmRPqTtQj+D9X07y9pUodiigd1Om6Ud/H31Mx8DLVod6/txFdZ4WQLEyU0LAGA==
-  dependencies:
-    "@babel/runtime" "^7.9.0"
+"@trpc/react@^10.0.0-alpha.59":
+  version "10.0.0-proxy-alpha.59"
+  resolved "https://registry.yarnpkg.com/@trpc/react/-/react-10.0.0-proxy-alpha.59.tgz#64f66ab280646df7874a7bbcd6ab49943824d21d"
+  integrity sha512-f2+Z4XbKGeeiI9X97dMxwVv0HtqcWM7/MNx9SGJvYOZuq8Y4Anw9Zoqz3Ac8TQDK1IL3yE1YNGKJ1G+Wbd8gdw==
 
-"@trpc/server@^10.0.0-alpha.51":
-  version "10.0.0-katt-fix-error-inference-2022-08-10-15-04-30.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.0.0-katt-fix-error-inference-2022-08-10-15-04-30.0.tgz#3c07678b52cea0b3ee1251166dfbe663721de066"
-  integrity sha512-ByKJmqpaiEu8STdqN2nMcBSdIt3POj/Pm/g2oB8b7pvlA5U8RO/R+8+AE0k5jaU1zx8HWZ7J3vmL27e6hCyS+A==
-  dependencies:
-    tslib "^2.1.0"
+"@trpc/server@^10.0.0-alpha.59":
+  version "10.0.0-proxy-alpha.59"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.0.0-proxy-alpha.59.tgz#015711e90281b8f548da4946a5fabb9ff6d4e5c2"
+  integrity sha512-rp7FIcT9KaZpqjymFXpakZRq/jshOKsLcaOM/UgaXgcec8/rMcu2V19/Stf2yYSxC5qQKihaLozAAitw6Ftt9g==
 
 "@types/acorn@^4.0.0":
   version "4.0.6"
@@ -4153,7 +4146,7 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.4.0:
+tslib@^2.0.3, tslib@^2.3.1, tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==

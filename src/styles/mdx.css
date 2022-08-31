@@ -159,11 +159,11 @@ pre[data-show-numbers="true"] .highlight-line:before {
 }
 
 div.rehype-code-title + pre {
-  @apply text-sm px-3 pt-1 py-1.5 md:text-lg md:py-2.5 border rounded-t-none bg-[#171718]  border-t-pink border-opacity-30;
+  @apply text-sm px-3 pt-1 py-1.5 md:text-lg md:py-2.5 border rounded-t-none bg-[#0f182a]  border-t-pink border-opacity-30;
 }
 
 div.rehype-code-title {
-  @apply text-sm px-3 pt-1 border-t border-r border-l rounded-t-lg bg-[#171718]  text-gray-300 border-r-t-pink border-l-t-pink border-t-t-pink border-opacity-30;
+  @apply text-sm px-3 pt-1 border-t border-r border-l rounded-t-lg bg-[#0f182a]  text-gray-300 border-r-t-pink border-l-t-pink border-t-t-pink border-opacity-30;
 }
 
 .prose :where(pre):not(:where([class~="not-prose"] *)) {

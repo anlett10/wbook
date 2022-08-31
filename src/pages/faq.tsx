@@ -7,7 +7,7 @@ const Qna: FC<{ question: string; answer: string }> = ({
 }) => {
   return (
     <div className="flex flex-col gap-1">
-      <p className="text-xl font-bold text-t-purple">{question}</p>
+      <p className="text-xl font-bold text-purple-300">{question}</p>
       <p>{answer}</p>
     </div>
   );
@@ -22,7 +22,7 @@ const CustomQna = ({
 }) => {
   return (
     <div className="flex flex-col gap-1">
-      <p className="text-xl font-bold text-t-purple">{question}</p>
+      <p className="text-xl font-bold text-purple-300">{question}</p>
       {children}
     </div>
   );
@@ -47,7 +47,7 @@ const FAQPage = () => {
       title="anlett10 • faq"
       description="Questions frequently asked to me"
     >
-      <h1 className="text-3xl font-bold pt-14 text-t-purple">FAQ</h1>
+      <h1 className="text-3xl font-bold pt-14 text-purple-300">FAQ</h1>
       <p className="pt-1 text-slate-200">
         Thông tin về công việc và một số quan tâm khác
       </p>
