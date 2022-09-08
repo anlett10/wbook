@@ -1,5 +1,5 @@
 // src/utils/trpc.ts
-import { setupTRPC } from "@trpc/next";
+import { createTRPCNext } from '@trpc/next';
 import type { AppRouter } from "../server/router";
 import superjson from "superjson";
 import { NextPageContext } from 'next';
@@ -23,7 +23,7 @@ export interface SSRContext extends NextPageContext {
   status?: number;
 }
 
-export const trpc = setupTRPC<AppRouter>({
+export const trpc = createTRPCNext<AppRouter, SSRContext>({
   config() {
     return {
       url: `${getBaseUrl()}/api/trpc`,
