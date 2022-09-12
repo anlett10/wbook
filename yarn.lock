@@ -580,27 +580,27 @@
     "@types/use-sync-external-store" "^0.0.3"
     use-sync-external-store "^1.2.0"
 
-"@trpc/client@^10.0.0-alpha.73":
-  version "10.0.0-proxy-alpha.73"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.0.0-proxy-alpha.73.tgz#3dcd87e3b5b6287667619d2f88bd135ce60192ed"
-  integrity sha512-k46rFBvqsdSzaQLYMdPckEE8uGMhWUx7SoQ4NpGBhCeI2bm+bb+V02wub1R3Gy63qEnCn6BY7+AetzTOn8H57Q==
+"@trpc/client@^10.0.0-alpha.75":
+  version "10.0.0-proxy-alpha.75"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.0.0-proxy-alpha.75.tgz#262e69ed063e680844b2f772a6cd514ade5a8f40"
+  integrity sha512-MiCUCS4N6Cj1UZziDvcjPv4y8+ThL3Dkl31gM0/rXjbGoME6QoKuSLP4grRgbPPFyvKcEJZeBoFlsVZXMpXq3g==
 
-"@trpc/next@^10.0.0-alpha.73":
-  version "10.0.0-proxy-alpha.73"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.0.0-proxy-alpha.73.tgz#8d84479d0e128bf8a163506182ec68179ad402a4"
-  integrity sha512-nL24qCGcDjSfkke+4sv0pQ3C/bXp6EVw8pWVt1U3ZA3FfXnEa1QAb3/m9LM9F1dgxEGPY3yVizKqyvhyo975+g==
+"@trpc/next@^10.0.0-alpha.75":
+  version "10.0.0-proxy-alpha.75"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.0.0-proxy-alpha.75.tgz#7712c116a8372a5327f0c8d941e08f9f6ed5421b"
+  integrity sha512-m8pV68G/M56zPcwlKkAINj4YBKNWPdg5+M/Mgof6XU6SdIZGyKXpIMSyd/e8YNTqoZCIn7UUFNgi9rDosBn6XQ==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
-"@trpc/react@^10.0.0-alpha.73":
-  version "10.0.0-proxy-alpha.73"
-  resolved "https://registry.yarnpkg.com/@trpc/react/-/react-10.0.0-proxy-alpha.73.tgz#16b4d506348da005fd19ae87c889c43fa0bde6a3"
-  integrity sha512-BwKjETA/RXFlzW6RD+0dEUt6kh5/+ozt+7q3g8hGCja0qN5h8tr1aYkg8E/B/7Li5g/Lsdz55DBHIBe1TYS1ew==
+"@trpc/react@^10.0.0-alpha.75":
+  version "10.0.0-proxy-alpha.75"
+  resolved "https://registry.yarnpkg.com/@trpc/react/-/react-10.0.0-proxy-alpha.75.tgz#485ca6cf31bf195e0d8747d949cc5ecc40130e6d"
+  integrity sha512-IV5691R46J9cCtbDfqiDIBL7cvXpxZsSPiEqLrxsASrdenCHjsGDQ6IGaQASeiF9ImB/P5RYOqY3Dz+JQNmsYA==
 
-"@trpc/server@^10.0.0-alpha.73":
-  version "10.0.0-proxy-alpha.73"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.0.0-proxy-alpha.73.tgz#f2c07ad27467ae252aabdd40f3108979d230964b"
-  integrity sha512-gKCciEvgfBfaAfMoexZnIlrectauOOZIiNJq50ZSFC9PjwsL+JoEKyviqsRUAE9ny+lOkQ1h60ccAk20ssMgMA==
+"@trpc/server@^10.0.0-alpha.75":
+  version "10.0.0-proxy-alpha.75"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.0.0-proxy-alpha.75.tgz#06cd49e0af2ebca05fc1477ed6512bf37ab413c2"
+  integrity sha512-LFKm4OF+d+BjhiMX/CDyIzvK7Wg6RD5uUpMUb7T0fFEtGfpZcbaVXQXpcmi62TVm06+CHrPytte2MDUFZH02jw==
 
 "@types/acorn@^4.0.0":
   version "4.0.6"
