@@ -5,13 +5,14 @@ date: "2022-09-12"
 draft: false
 ---
 
-Chạy thử một dApp đơn giản trên Aptos: gửi messages lên blockchain, đọc messages và hiển thị trên Chrome desktop.
+Chạy thử một dApp trên Aptos: gửi messages lên blockchain, đọc messages và hiển thị trên Chrome desktop.
 Lưu lại các lỗi gặp phải, cách kiểm tra, cũng như một số quan sát:
 
 - Dùng SAI aptos CLI version: sau khi build xong file thực thi, cần kiểm tra aptos --version, where aptos, shell config (export PATH...)
 - Faucet node (dùng để fund cho Aptos account) đôi khi gặp lỗi: xem lỗi khi chạy fund-with-faucet từ CLI, và trên ví Petra cũng không nạp fund được.
 - Chrome không đọc được Aptos account khi chạy lần đầu: thêm window.aptos.connect() trước khi lấy thông tin window.aptos.account()
 - Lỗi về stream khi dùng ReactJS: build tools như Webpack, Vite thiếu polyfills cho NodeJS, dùng NextJS sẽ không bị lỗi.
+- Lỗi "window is not defined" trên NextJS: thêm điều kiện global.window &&, lồng client code vào useEffect()
 - Lỗi về transaction type trên UI code: kiểm tra public entry fun của Move module (Aptos smart contract), đọc life of a transaction trên aptos.dev
 - Một số lỗi về TS type: kiểm tra Aptos TS SDK.
 
