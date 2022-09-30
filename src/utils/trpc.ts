@@ -1,5 +1,6 @@
 // src/utils/trpc.ts
 import { createTRPCNext } from '@trpc/next';
+import { httpBatchLink, loggerLink } from "@trpc/client";
 import type { AppRouter } from "../server/router";
 import superjson from "superjson";
 import { NextPageContext } from 'next';
@@ -22,14 +23,21 @@ export interface SSRContext extends NextPageContext {
    */
   status?: number;
 }
-
-export const trpc = createTRPCNext<AppRouter, SSRContext>({
+export const trpc = createTRPCNext<AppRouter>({
   config() {
     return {
-      url: `${getBaseUrl()}/api/trpc`,
       transformer: superjson,
+      links: [
+        loggerLink({
+          enabled: (opts) =>
+            process.env.NODE_ENV === "development" ||
+            (opts.direction === "down" && opts.result instanceof Error),
+        }),
+        httpBatchLink({
+          url: `${getBaseUrl()}/api/trpc`,
+        }),
+      ],
     };
   },
   ssr: false,
 });
-
