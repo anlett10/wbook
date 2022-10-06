@@ -57,7 +57,7 @@ const FAQPage = () => {
       <div className="flex flex-col gap-6">
         <Qna
           question="Về công việc phát triển phần mềm?"
-          answer="Thời gian gần đây suy nghĩ về cụm từ Code Is Law. Nhìn chung, chương trình máy tính được phát triển nhằm hiện thực các quy định/quy tắc (Business logic/Law) được thống nhất trước đó"
+          answer="Phần mêm là phương tiện quan trọng hỗ trợ trong công việc, giao tiếp, vận hành thiết bị... Nhìn chung, chương trình máy tính được phát triển nhằm hiện thực các quy định/thiết kế được định nghĩa trước đó"
         />
 
         <CustomQna question="Ngôn ngữ lập trình yêu thích?">
