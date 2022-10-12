@@ -1,5 +1,5 @@
-import { t } from '../utils';
+import { router, publicProcedure } from '../utils';
 
-export const health = t.router({
-  healthz: t.procedure.query(() => 'I am alive')
+export const health = router({
+  healthz: publicProcedure.query(() => 'I am alive')
 })
