@@ -62,7 +62,7 @@ const FAQPage = () => {
 
         <Qna
           question="Về tên Kiến Khoa và logo chữ W?"
-          answer="W = web, logo trông như 2 cuốn sách (= Khoa), Kiến = làm việc để hoàn thành."
+          answer="W = web, logo nhìn như 2 cuốn sách = Khoa, Kiến = làm việc để hoàn thành."
         />
 
         <CustomQna question="Ngôn ngữ lập trình yêu thích?">
