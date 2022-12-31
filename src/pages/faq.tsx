@@ -57,7 +57,12 @@ const FAQPage = () => {
       <div className="flex flex-col gap-6">
         <Qna
           question="Về công việc phát triển phần mềm?"
-          answer="Phần mềm là phương tiện quan trọng hỗ trợ công việc, giao tiếp, vận hành thiết bị... Nhìn chung, chương trình máy tính được phát triển nhằm hiện thực các quy tắc/thiết kế được định nghĩa trước đó"
+          answer="Phần mềm là phương tiện quan trọng hỗ trợ công việc, giao tiếp, vận hành thiết bị... Nhìn chung, chương trình máy tính được phát triển nhằm hiện thực các quy tắc/thiết kế được định nghĩa trước đó."
+        />
+
+        <Qna
+          question="Về tên Kiến Khoa và logo chữ W?"
+          answer="W = web, nhìn gần hơn logo trông như 2 cuốn sách xếp lên nhau, và sách = khoa trong chữ Kiến Khoa. Kiến = làm việc để hoàn thành."
         />
 
         <CustomQna question="Ngôn ngữ lập trình yêu thích?">
