@@ -65,15 +65,6 @@ const FAQPage = () => {
           answer="W = web, logo nhìn như 2 cuốn sách = Khoa, Kiến = làm việc để hoàn thành."
         />
 
-        <CustomQna question="Ngôn ngữ lập trình yêu thích?">
-          <p>
-            Lý tưởng, chương trình sẽ được phát triển bằng các ngôn ngữ sau{" "}
-            <Link to="https://typescriptlang.org" text="TypeScript" />,{" "}
-            <Link to="https://rust-lang.org/" text="Rust" /> và{" "}
-            <Link to="https://move-book.com" text="Move" />.
-          </p>
-        </CustomQna>
-
         <CustomQna question="Hiện tại đang làm công việc gì?">
           <p>
             Xây dựng ứng dụng web/mobile theo nhu cầu khách hàng tại{" "}
@@ -82,6 +73,15 @@ const FAQPage = () => {
           <p>
             Dịch vụ gia công phần mềm cho các Doanh nghiệp{" "}
             <Link to="https://wbookapp.com" text="wbookapp.com" />.
+          </p>
+        </CustomQna>
+
+        <CustomQna question="Ngôn ngữ lập trình yêu thích?">
+          <p>
+            Lý tưởng, chương trình sẽ được phát triển bằng các ngôn ngữ sau{" "}
+            <Link to="https://typescriptlang.org" text="TypeScript" />,{" "}
+            <Link to="https://rust-lang.org/" text="Rust" /> và{" "}
+            <Link to="https://move-book.com" text="Move" />.
           </p>
         </CustomQna>
 
