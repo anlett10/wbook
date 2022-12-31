@@ -72,7 +72,11 @@ const FAQPage = () => {
         <CustomQna question="Hiện tại đang làm công việc gì?">
           <p>
             Xây dựng ứng dụng web/mobile theo nhu cầu khách hàng tại{" "}
-            <Link to="https://wbookapp.com" text="Kiến Khoa Software" />.
+            <Link to="https://kienkhoa.com" text="Kiến Khoa Software" />.
+          </p>
+          <p>
+            Dịch vụ gia công phần mềm cho các Doanh nghiệp{" "}
+            <Link to="https://wbookapp.com" text="wbookapp.com" />.
           </p>
         </CustomQna>
 
