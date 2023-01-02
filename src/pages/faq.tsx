@@ -60,21 +60,21 @@ const FAQPage = () => {
           answer="Phần mềm là phương tiện quan trọng hỗ trợ công việc, giao tiếp, vận hành thiết bị... Nhìn chung, chương trình máy tính được phát triển nhằm hiện thực các quy tắc/thiết kế được định nghĩa trước đó."
         />
 
+        <CustomQna question="Hiện tại đang làm công việc gì?">
+          <p>
+            Xây dựng ứng dụng web/mobile, phần mềm cho Doanh nghiệp tại{" "}
+            <Link to="https://kienkhoa.com" text="Kiến Khoa Software" />.
+          </p>
+          <p>
+            Dịch vụ gia công phần mềm cho khách hàng bên ngoài VN{" "}
+            <Link to="https://wbookapp.com" text="wbookapp.com" />.
+          </p>
+        </CustomQna>
+
         <Qna
           question="Về tên Kiến Khoa và logo chữ W?"
           answer="W = web, nhìn gần logo có hình 2 cuốn sách = Khoa, Kiến = làm việc để hoàn thành."
         />
-
-        <CustomQna question="Hiện tại đang làm công việc gì?">
-          <p>
-            Xây dựng ứng dụng web/mobile theo nhu cầu khách hàng tại{" "}
-            <Link to="https://kienkhoa.com" text="Kiến Khoa Software" />.
-          </p>
-          <p>
-            Dịch vụ gia công phần mềm cho các Doanh nghiệp{" "}
-            <Link to="https://wbookapp.com" text="wbookapp.com" />.
-          </p>
-        </CustomQna>
 
         <CustomQna question="Ngôn ngữ lập trình yêu thích?">
           <p>
