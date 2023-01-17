@@ -82,7 +82,7 @@ const Hero = () => {
           <FiTwitter />
         </a>
         <a
-          href="mailto:an@wbookapp.com"
+          href="mailto:an@kienkhoa.com"
           target="_blank"
           rel="noreferrer"
           className="p-3 transition-colors duration-300 rounded-full hover:bg-zinc-800"
