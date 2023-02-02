@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer>
       <p className="px-4 pt-24 pb-6 md:text-base">
-        This website made use of open-source credits to{" "}
+        Trang web sử dụng mã nguồn mở tại{" "}
         <a
           href="https://www.nexxel.dev/"
           target="_blank"

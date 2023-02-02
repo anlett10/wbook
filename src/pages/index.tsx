@@ -40,7 +40,7 @@ const HomePage: NextPage<{
     <Wrapper title="anlett10 • home" description="entrepreneur developer">
       <Hero />
       <div className="flex flex-col">
-        <h3 className="pb-6 text-4xl font-bold">Recent posts</h3>
+        <h3 className="pb-6 text-4xl font-bold">Bài viết gần đây</h3>
 
         <div className="flex flex-col gap-1">
           {latestPosts.map((post) => (
@@ -51,7 +51,7 @@ const HomePage: NextPage<{
         <Link href="/blog">
           <a>
             <p className="flex items-center gap-1 pt-4 pl-4 text-lg transition-opacity duration-300 opacity-75 hover:opacity-100 text-teal-400">
-              Go to the blog
+              Đến trang BLOG
               <FiArrowRight size={20} />
             </p>
           </a>
