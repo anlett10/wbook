@@ -64,7 +64,7 @@ const FAQPage = () => {
           <p>
             Xây dựng ứng dụng web/mobile, phần mềm cho Doanh nghiệp, dịch vụ gia
             công phần mềm tại{" "}
-            <Link to="https://kienkhoa.com" text="Kiến Khoa Software" />.
+            <Link to="https://www.kienkhoa.com" text="Kiến Khoa Software" />.
           </p>
         </CustomQna>
 
